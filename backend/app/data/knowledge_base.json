@@ -1,0 +1,552 @@
+[
+    {
+        "id": "what_is_health_vibe",
+        "category": "general",
+        "title": "What is Health Vibe?",
+        "content": "Health Vibe is a health and wellness testing platform focused on AI-powered insights, lab testing, personalized recommendations, and digital health records. The website describes its mission as helping users take control of their health through accessible, accurate, and timely diagnostic services.",
+        "keywords": [
+            "health vibe",
+            "what is health vibe",
+            "about",
+            "wellness platform",
+            "testing platform",
+            "diagnostics",
+            "ai insights",
+            "personalized recommendations"
+        ],
+        "buttons": [
+            {
+                "label": "Start health journey",
+                "value": "new_user"
+            },
+            {
+                "label": "Browse categories",
+                "url": "#categories"
+            }
+        ]
+    },
+    {
+        "id": "homepage_start",
+        "category": "new_user",
+        "title": "Where should a new user start?",
+        "content": "If a user is not sure where to start, the homepage encourages them to ask Health Genie for recommendations. Another suggested starting point is the Comprehensive Health Screen, which includes 120 biomarkers and has Male and Female options.",
+        "keywords": [
+            "start",
+            "begin",
+            "new user",
+            "where do i start",
+            "not sure",
+            "health journey",
+            "recommendations",
+            "comprehensive health screen",
+            "120 biomarkers"
+        ],
+        "buttons": [
+            {
+                "label": "I'm new and need help getting started",
+                "value": "new_user"
+            },
+            {
+                "label": "General wellness",
+                "value": "general_wellness"
+            }
+        ]
+    },
+    {
+        "id": "global_navigation",
+        "category": "navigation",
+        "title": "Main website navigation",
+        "content": "The main Health Vibe navigation includes Browse All Categories, FDA approved home testing, On demand Virtual Care, Nutritional Support & Supplements, About, Health & Support, Register Kit, and Digital Health Record. The header also includes a search bar for lab tests, login/account area, and cart icon.",
+        "keywords": [
+            "navigation",
+            "menu",
+            "browse all categories",
+            "home testing",
+            "virtual care",
+            "nutritional support",
+            "supplements",
+            "about",
+            "support",
+            "register kit",
+            "digital health record",
+            "login",
+            "cart",
+            "search lab tests"
+        ],
+        "buttons": [
+            {
+                "label": "Register Kit",
+                "value": "register_kit"
+            },
+            {
+                "label": "Contact Support",
+                "value": "contact_support"
+            }
+        ]
+    },
+    {
+        "id": "how_it_works",
+        "category": "workflow",
+        "title": "How Health Vibe works",
+        "content": "Health Vibe presents a five-step flow: talk to Health Genie about symptoms for AI test recommendations, select tests and add them to cart, choose a service option and checkout, schedule an appointment, then receive lab results and personalized health insights with a health score in 24-48 hours.",
+        "keywords": [
+            "how it works",
+            "process",
+            "steps",
+            "workflow",
+            "test recommendations",
+            "add to cart",
+            "checkout",
+            "schedule appointment",
+            "results",
+            "health score",
+            "24-48 hours"
+        ],
+        "buttons": [
+            {
+                "label": "Start health journey",
+                "value": "new_user"
+            }
+        ]
+    },
+    {
+        "id": "health_genie_recommendations",
+        "category": "health_genie",
+        "title": "Health Genie recommendations",
+        "content": "Health Genie is presented as a personal health guide that helps users get recommendations. The website says users can talk to Health Genie about their symptoms and receive personalized test recommendations.",
+        "keywords": [
+            "health genie",
+            "ai",
+            "recommendations",
+            "recommend tests",
+            "symptoms",
+            "personal health guru",
+            "ask health genie",
+            "which test"
+        ],
+        "buttons": [
+            {
+                "label": "I'm not sure where to start",
+                "value": "not_sure"
+            },
+            {
+                "label": "Help me choose wellness options",
+                "value": "general_wellness"
+            }
+        ]
+    },
+    {
+        "id": "comprehensive_health_screen_overview",
+        "category": "test_package",
+        "title": "Comprehensive Health Screen",
+        "content": "The Comprehensive Health Screen is presented as a default starting option on the homepage. It includes 120 biomarkers and has Male and Female package options.",
+        "keywords": [
+            "comprehensive health screen",
+            "comprehensive package",
+            "120 biomarkers",
+            "male package",
+            "female package",
+            "complete test",
+            "full health screen"
+        ],
+        "buttons": [
+            {
+                "label": "Comprehensive Health - Male",
+                "value": "general_wellness"
+            },
+            {
+                "label": "Comprehensive Health - Female",
+                "value": "general_wellness"
+            }
+        ]
+    },
+    {
+        "id": "comprehensive_health_male",
+        "category": "test_package",
+        "title": "Comprehensive Health Biomarkers - Male",
+        "content": "The male comprehensive health package includes a broad biomarker panel covering blood type, metabolic markers, liver markers, kidney markers, thyroid markers, lipid markers, inflammation markers, CBC markers, urine markers, vitamins, minerals, biological age, and male hormone/prostate markers. Examples include testosterone total/free/bioavailable, SHBG, free androgen index, PSA total and free, cortisol, insulin, IGF-1, Vitamin D, Vitamin B12, zinc, magnesium, iron markers, HbA1c, glucose, cholesterol markers, TSH, T3, T4, creatinine, eGFR, ALT, AST, hs-CRP, homocysteine, and urinalysis markers.",
+        "keywords": [
+            "male",
+            "male biomarkers",
+            "comprehensive health biomarkers male",
+            "testosterone",
+            "free testosterone",
+            "bioavailable testosterone",
+            "shbg",
+            "psa",
+            "prostate",
+            "cortisol",
+            "insulin",
+            "vitamin d",
+            "vitamin b12",
+            "thyroid",
+            "lipid",
+            "cholesterol",
+            "liver",
+            "kidney",
+            "urinalysis"
+        ],
+        "buttons": [
+            {
+                "label": "Start health journey",
+                "value": "new_user"
+            },
+            {
+                "label": "Contact Support",
+                "value": "contact_support"
+            }
+        ]
+    },
+    {
+        "id": "comprehensive_health_female",
+        "category": "test_package",
+        "title": "Comprehensive Health Biomarkers - Female",
+        "content": "The female comprehensive health package includes a broad biomarker panel covering blood type, metabolic markers, liver markers, kidney markers, thyroid markers, lipid markers, inflammation markers, CBC markers, urine markers, vitamins, minerals, biological age, and female hormone markers. Examples include estradiol, progesterone, prolactin, estrogen:progesterone ratio, testosterone, FSH, LH, SHBG, cortisol, insulin, IGF-1, Vitamin D, Vitamin B12, zinc, magnesium, iron markers, HbA1c, glucose, cholesterol markers, TSH, T3, T4, creatinine, eGFR, ALT, AST, hs-CRP, homocysteine, beta HCG, and urinalysis markers.",
+        "keywords": [
+            "female",
+            "female biomarkers",
+            "comprehensive health biomarkers female",
+            "estradiol",
+            "estrogen",
+            "progesterone",
+            "prolactin",
+            "beta hcg",
+            "testosterone",
+            "fsh",
+            "lh",
+            "shbg",
+            "cortisol",
+            "insulin",
+            "vitamin d",
+            "vitamin b12",
+            "thyroid",
+            "lipid",
+            "cholesterol",
+            "liver",
+            "kidney",
+            "urinalysis"
+        ],
+        "buttons": [
+            {
+                "label": "Start health journey",
+                "value": "new_user"
+            },
+            {
+                "label": "Contact Support",
+                "value": "contact_support"
+            }
+        ]
+    },
+    {
+        "id": "digital_health_record_package",
+        "category": "records",
+        "title": "6 Months Digital Health Record Included",
+        "content": "The comprehensive health packages include 6 months of Digital Health Record subscription. The site describes this as a $9.99/month or $99/year value. Included benefits are AI-powered health insights and recommendations, priority access to virtual care consultations, digital health tracking and progress monitoring, and exclusive discounts on future tests.",
+        "keywords": [
+            "digital health record",
+            "health record",
+            "personal health vault",
+            "6 months",
+            "subscription",
+            "9.99",
+            "99/year",
+            "ai insights",
+            "virtual care",
+            "health tracking",
+            "discounts"
+        ],
+        "buttons": [
+            {
+                "label": "Digital Health Record",
+                "value": "previous_results"
+            },
+            {
+                "label": "Virtual Care",
+                "value": "virtual_care_returning"
+            }
+        ]
+    },
+    {
+        "id": "results_health_score",
+        "category": "results",
+        "title": "Results and health score",
+        "content": "After testing, Health Vibe says users can receive lab results and personalized health insights in 24-48 hours. The website also mentions a health score as part of the results experience.",
+        "keywords": [
+            "results",
+            "health score",
+            "lab results",
+            "when do i get results",
+            "24-48 hours",
+            "personalized insights",
+            "view results",
+            "previous results"
+        ],
+        "buttons": [
+            {
+                "label": "View previous results",
+                "value": "previous_results"
+            },
+            {
+                "label": "Digital Health Record",
+                "value": "previous_results"
+            }
+        ]
+    },
+    {
+        "id": "service_options_checkout",
+        "category": "checkout",
+        "title": "Service and checkout options",
+        "content": "During checkout, users can choose a service option such as a lab visit, home service, or self-collection kit. The website also mentions scheduling a preferred date and time for a lab visit or home service.",
+        "keywords": [
+            "checkout",
+            "service options",
+            "lab visit",
+            "home service",
+            "self collection",
+            "self-collection kit",
+            "schedule",
+            "appointment",
+            "date",
+            "time"
+        ],
+        "buttons": [
+            {
+                "label": "Start health journey",
+                "value": "new_user"
+            }
+        ]
+    },
+    {
+        "id": "health_categories",
+        "category": "test_category",
+        "title": "Health categories and test areas",
+        "content": "Health Vibe shows health categories including Hormone Health - Male, Hormone Health - Female, Thyroid Health, Vitamin Health, Sexual Health, Metabolic Health, Cardiac Health, Brain Health, Stress & Anti-Ageing, Digestive Health, Bone Health, Gut Health, Nutritional Health, Minerals & Metals, Allergy & Sensitivity Screening, Energy & Exercise Screening, Inflammation Screening, Infection Screening, Immunity Screening, Cancer Screening, and Pharmacogenetic Screening.",
+        "keywords": [
+            "categories",
+            "browse categories",
+            "hormone",
+            "thyroid",
+            "vitamin",
+            "sexual health",
+            "metabolic",
+            "cardiac",
+            "brain",
+            "stress",
+            "anti-ageing",
+            "digestive",
+            "bone",
+            "gut",
+            "nutritional",
+            "minerals",
+            "metals",
+            "allergy",
+            "sensitivity",
+            "energy",
+            "exercise",
+            "inflammation",
+            "infection",
+            "immunity",
+            "cancer",
+            "pharmacogenetic"
+        ],
+        "buttons": [
+            {
+                "label": "Browse categories",
+                "value": "general_wellness"
+            }
+        ]
+    },
+    {
+        "id": "hormone_health_male",
+        "category": "test_category",
+        "title": "Hormone Health - Male",
+        "content": "The Hormone Health - Male category focuses on hormones such as testosterone. The website explains that hormones are messengers that carry signals through the blood. For men, key hormone levels like testosterone decline steadily from the mid-30s. Common symptoms listed include low energy, brain fog, poor sleep, mood swings, hair loss, weight gain, low libido, and muscle loss. Biomarkers shown include total testosterone, SHBG, bioavailable testosterone, free testosterone, free androgen index, testosterone/estradiol ratio, PSA total and free, PSI index, IGF-1, DHT, androstenedione, cortisol, insulin, Vitamin D, and Vitamin B12.",
+        "keywords": [
+            "hormone health male",
+            "male hormones",
+            "testosterone",
+            "low testosterone",
+            "low energy",
+            "brain fog",
+            "poor sleep",
+            "mood swings",
+            "hair loss",
+            "weight gain",
+            "low libido",
+            "muscle loss",
+            "dht",
+            "psa",
+            "igf-1",
+            "cortisol",
+            "insulin"
+        ],
+        "buttons": [
+            {
+                "label": "Start testing",
+                "value": "general_wellness"
+            }
+        ]
+    },
+    {
+        "id": "health_intelligence_dashboard",
+        "category": "dashboard",
+        "title": "Health Intelligence Dashboard",
+        "content": "The Health Intelligence Dashboard presents health information at a glance with real-time monitoring and AI-powered insights. Example dashboard information includes biomarkers analyzed, biomarkers in range, biomarkers needing attention, biological age, and an action plan with foods, self care, and supplements.",
+        "keywords": [
+            "dashboard",
+            "health intelligence",
+            "biomarkers analyzed",
+            "biological age",
+            "action plan",
+            "foods",
+            "self care",
+            "supplements",
+            "needs attention",
+            "in range",
+            "real-time monitoring"
+        ],
+        "buttons": [
+            {
+                "label": "Digital Health Record",
+                "value": "previous_results"
+            }
+        ]
+    },
+    {
+        "id": "about_mission_vision",
+        "category": "about",
+        "title": "About Health Vibe mission and vision",
+        "content": "Health Vibe's mission is to provide accessible, accurate, and timely diagnostic services that empower individuals to take control of their health and make informed decisions about their wellbeing. Its vision is to revolutionize healthcare diagnostics by combining cutting-edge technology with compassionate care, making quality health testing available to everyone, everywhere.",
+        "keywords": [
+            "mission",
+            "vision",
+            "about",
+            "diagnostic services",
+            "accessible",
+            "accurate",
+            "timely",
+            "wellbeing",
+            "compassionate care",
+            "quality health testing"
+        ],
+        "buttons": [
+            {
+                "label": "Contact Support",
+                "value": "contact_support"
+            }
+        ]
+    },
+    {
+        "id": "healthcare_impact",
+        "category": "about",
+        "title": "Healthcare impact and experience",
+        "content": "The About page describes Health Vibe as offering advanced health testing and diagnostics. It lists 15+ years of healthcare excellence, 1250+ tests completed, 150+ health tests available, 5000+ happy patients, and a 98% success rate.",
+        "keywords": [
+            "healthcare impact",
+            "15 years",
+            "tests completed",
+            "150 health tests",
+            "5000 happy patients",
+            "98 success rate",
+            "advanced health testing",
+            "diagnostics"
+        ],
+        "buttons": [
+            {
+                "label": "Browse categories",
+                "value": "general_wellness"
+            }
+        ]
+    },
+    {
+        "id": "why_choose_health_vibe",
+        "category": "about",
+        "title": "Why choose Health Vibe?",
+        "content": "The About page says Health Vibe combines advanced technology with compassionate care. Reasons listed include trusted and reliable testing, fast results, quality assurance, and expert care from experienced healthcare professionals.",
+        "keywords": [
+            "why choose",
+            "trusted",
+            "reliable",
+            "fast results",
+            "quality assured",
+            "expert care",
+            "advanced technology",
+            "compassionate care"
+        ],
+        "buttons": [
+            {
+                "label": "Start health journey",
+                "value": "new_user"
+            }
+        ]
+    },
+    {
+        "id": "contact_support",
+        "category": "support",
+        "title": "Contact and support",
+        "content": "Health Vibe lists contact details including phone +1 (555) 123-4567, email hello@healthvibe.com, and address 123 Health St, Wellness City, USA. Company links include About Us, Blog, and Contact.",
+        "keywords": [
+            "contact",
+            "support",
+            "phone",
+            "email",
+            "help",
+            "customer service",
+            "address",
+            "about us",
+            "blog",
+            "hello@healthvibe.com",
+            "123 health st"
+        ],
+        "buttons": [
+            {
+                "label": "Contact Support",
+                "value": "contact_support"
+            }
+        ]
+    },
+    {
+        "id": "trust_certifications",
+        "category": "trust",
+        "title": "Trust and certifications",
+        "content": "Health Vibe shows trust and certification badges including HIPAA Compliant, SOC 2 Type II, ISO 27001, FDA Registered, and CLIA Certified.",
+        "keywords": [
+            "hipaa",
+            "soc 2",
+            "iso 27001",
+            "fda registered",
+            "clia certified",
+            "certified",
+            "trust",
+            "privacy",
+            "security",
+            "compliance"
+        ],
+        "buttons": [
+            {
+                "label": "Contact Support",
+                "value": "contact_support"
+            }
+        ]
+    },
+    {
+        "id": "legal_pages",
+        "category": "legal",
+        "title": "Legal pages",
+        "content": "Health Vibe lists legal links for Privacy Policy, Terms and Conditions, Authorization for Medical Information, and Release of Lab Results.",
+        "keywords": [
+            "privacy policy",
+            "terms",
+            "terms and conditions",
+            "authorization for medical information",
+            "release of lab results",
+            "legal"
+        ],
+        "buttons": [
+            {
+                "label": "Contact Support",
+                "value": "contact_support"
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+node_modules/
+.next/
+venv/
+__pycache__/
+.env
+.env.local
+*.pyc
+.DS_Store
+
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node / Next
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Env files
+.env
+.env.local
+frontend/.env.local
+backend/.env
+*.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,401 @@
+[
+  {
+    "intent": "new_user",
+    "description": "User is new to Health Vibe and wants to get started for the first time.",
+    "examples": [
+      "I'm new here",
+      "I'm new and need help getting started",
+      "I'm a first-time user",
+      "I've never used this before",
+      "I just signed up",
+      "I want to create an account",
+      "I'm new to Health Vibe",
+      "just getting started",
+      "where do I begin",
+      "where do I start",
+      "I'm a new customer",
+      "I'm new and not sure what to do"
+    ],
+    "keywords": [
+      "new",
+      "first time",
+      "never used",
+      "just signed up",
+      "create account",
+      "getting started",
+      "new customer",
+      "new user",
+      "brand new",
+      "where do i start",
+      "where do i begin"
+    ],
+    "route_to_step": "new_user"
+  },
+  {
+    "intent": "returning_user",
+    "description": "User has used Health Vibe before and wants assistance with their existing account.",
+    "examples": [
+      "I'm a returning user",
+      "I've used this before",
+      "I already have an account",
+      "I'm back",
+      "I'm a returning customer",
+      "I've been here before",
+      "I had an account",
+      "welcome back, I need help",
+      "I used Health Vibe before and need assistance",
+      "I'm returning and need help"
+    ],
+    "keywords": [
+      "returning",
+      "already",
+      "have an account",
+      "I'm back",
+      "used before",
+      "existing account",
+      "returning customer",
+      "returning user",
+      "been here before"
+    ],
+    "route_to_step": "returning_user"
+  },
+  {
+    "intent": "general_wellness",
+    "description": "User wants to explore or improve their general health and wellness without a specific goal in mind.",
+    "examples": [
+      "I want to check on my overall health",
+      "I'm interested in general wellness",
+      "I want a general health checkup",
+      "how healthy am I",
+      "I want to understand my overall wellbeing",
+      "general wellness check",
+      "I want to improve my health",
+      "I want to know how I'm doing health-wise",
+      "overall health screening",
+      "I'm just curious about my health"
+    ],
+    "keywords": [
+      "general wellness",
+      "overall health",
+      "health checkup",
+      "wellbeing",
+      "general health",
+      "health check",
+      "improve health",
+      "overall wellness"
+    ],
+    "route_to_step": "general_wellness"
+  },
+  {
+    "intent": "nutrition",
+    "description": "User is asking about nutrition guidance, supplements, vitamins, or dietary support.",
+    "examples": [
+      "I want nutrition advice",
+      "I'm interested in supplements",
+      "what vitamins should I take",
+      "nutrition guidance",
+      "I need dietary advice",
+      "I'm looking for supplement recommendations",
+      "what supplements are good for me",
+      "nutritional support",
+      "I want help with my diet",
+      "can Health Vibe help with vitamins",
+      "I want to know about minerals and vitamins",
+      "I'm interested in nutritional health"
+    ],
+    "keywords": [
+      "nutrition",
+      "supplement",
+      "supplements",
+      "vitamins",
+      "minerals",
+      "diet",
+      "dietary",
+      "nutritional support",
+      "vitamin advice",
+      "nutritional health"
+    ],
+    "route_to_step": "nutrition"
+  },
+  {
+    "intent": "virtual_care_new",
+    "description": "New user wants to learn about or access virtual care for the first time.",
+    "examples": [
+      "I want to speak with a provider",
+      "can I talk to a doctor",
+      "I'm interested in virtual care",
+      "what is virtual care",
+      "I want an online doctor consultation",
+      "telehealth options",
+      "how does virtual care work",
+      "I'd like to see a provider online",
+      "online medical consultation",
+      "can I speak with someone about my health",
+      "I want to connect with a healthcare provider",
+      "I want to learn more about virtual care"
+    ],
+    "keywords": [
+      "virtual care",
+      "telehealth",
+      "speak with a provider",
+      "online doctor",
+      "provider consultation",
+      "doctor online",
+      "healthcare provider",
+      "virtual consultation",
+      "talk to a doctor"
+    ],
+    "route_to_step": "virtual_care_new"
+  },
+  {
+    "intent": "virtual_care_returning",
+    "description": "Returning user wants to book or use virtual care, follow up with a provider, or access a consultation.",
+    "examples": [
+      "I want to book a virtual care appointment",
+      "I need to follow up with my provider",
+      "I want to see a doctor again",
+      "schedule a virtual visit",
+      "I need a virtual consultation",
+      "I want to use virtual care again",
+      "I need to speak with a provider about my results",
+      "can I book a virtual care session",
+      "I want to talk to a provider about my health",
+      "I need a provider follow-up"
+    ],
+    "keywords": [
+      "book virtual care",
+      "virtual appointment",
+      "follow up",
+      "provider follow up",
+      "schedule virtual",
+      "virtual visit",
+      "speak with provider again",
+      "virtual care session",
+      "provider appointment"
+    ],
+    "route_to_step": "virtual_care_returning"
+  },
+  {
+    "intent": "register_kit",
+    "description": "User wants to register or activate a Health Vibe test kit they received.",
+    "examples": [
+      "I need to register my kit",
+      "how do I register my test kit",
+      "kit registration",
+      "I received a kit and need to register it",
+      "activate my kit",
+      "I have a kit ID",
+      "how do I activate my kit",
+      "I got my kit in the mail and need to register",
+      "register my health kit",
+      "where do I enter my kit ID",
+      "I need to set up my kit",
+      "how to register a kit"
+    ],
+    "keywords": [
+      "register kit",
+      "kit registration",
+      "activate kit",
+      "kit ID",
+      "test kit",
+      "register my kit",
+      "set up kit",
+      "kit activate",
+      "health kit"
+    ],
+    "route_to_step": "register_kit"
+  },
+  {
+    "intent": "contact_support",
+    "description": "User wants to contact customer support, get help from a person, or has a question for the support team.",
+    "examples": [
+      "I need to contact support",
+      "can I talk to customer service",
+      "I need help from a real person",
+      "how do I reach support",
+      "I have a question for support",
+      "I need customer service",
+      "help desk",
+      "I want to contact Health Vibe",
+      "how do I get in touch with support",
+      "I want to speak with someone",
+      "I need to report a problem",
+      "I have an issue I need help with",
+      "contact Health Vibe team"
+    ],
+    "keywords": [
+      "contact support",
+      "customer service",
+      "help desk",
+      "reach support",
+      "talk to someone",
+      "speak with someone",
+      "contact Health Vibe",
+      "real person",
+      "support team",
+      "get in touch"
+    ],
+    "route_to_step": "contact_support"
+  },
+  {
+    "intent": "previous_results",
+    "description": "Returning user wants to view their own past test results or health dashboard.",
+    "examples": [
+      "I want to see my results",
+      "show me my previous results",
+      "where are my test results",
+      "view my lab results",
+      "I want to check my results",
+      "access my health results",
+      "I want to see my dashboard",
+      "check my previous test results",
+      "I need to look at my results",
+      "my results from my last test",
+      "show my health data",
+      "where do I find my results"
+    ],
+    "keywords": [
+      "my results",
+      "previous results",
+      "view results",
+      "lab results",
+      "test results",
+      "my dashboard",
+      "my health data",
+      "check my results",
+      "see my results"
+    ],
+    "route_to_step": "previous_results"
+  },
+  {
+    "intent": "not_sure",
+    "description": "User does not know where to start or what they need and wants guidance.",
+    "examples": [
+      "I'm not sure where to start",
+      "I don't know what I need",
+      "I'm not sure what to pick",
+      "help me figure out what to do",
+      "I'm confused about where to begin",
+      "I don't know what test to get",
+      "I have no idea where to start",
+      "I'm overwhelmed and don't know what to choose",
+      "I'm not sure what Health Vibe can do for me",
+      "I just want guidance",
+      "help me decide",
+      "I have no idea"
+    ],
+    "keywords": [
+      "not sure",
+      "unsure",
+      "don't know",
+      "confused",
+      "no idea",
+      "help me decide",
+      "help me figure out",
+      "where to start",
+      "overwhelmed",
+      "guidance"
+    ],
+    "route_to_step": "not_sure"
+  },
+  {
+    "intent": "learn_health",
+    "description": "User wants to learn more about their health, understand their biomarkers, or get health insights.",
+    "examples": [
+      "I want to learn more about my health",
+      "I want to know more about my health",
+      "learn more about my health",
+      "learn about my health",
+      "understand my health",
+      "know more about my health",
+      "I want to understand my health better",
+      "I want to understand my health",
+      "help me understand my body",
+      "I want to know about my biomarkers",
+      "I want health insights",
+      "I want to understand what my health markers mean",
+      "I want to learn about my health metrics",
+      "tell me about my overall health",
+      "I want to understand what's going on in my body",
+      "health education",
+      "I want personalized health information"
+    ],
+    "keywords": [
+      "learn health",
+      "learn more about my health",
+      "learn about my health",
+      "know more about my health",
+      "understand health",
+      "understand my health",
+      "health insights",
+      "biomarkers",
+      "health metrics",
+      "health education",
+      "understand my body",
+      "health information",
+      "personalized health",
+      "health knowledge"
+    ],
+    "route_to_step": "learn_health"
+  },
+  {
+    "intent": "deficiencies",
+    "description": "User wants to check for or understand possible nutrient or vitamin deficiencies.",
+    "examples": [
+      "I want to check for deficiencies",
+      "could I be deficient in vitamins",
+      "I think I might have a vitamin deficiency",
+      "check for nutrient deficiencies",
+      "I want to know if I'm low on any vitamins",
+      "mineral deficiency testing",
+      "I might have low vitamin D",
+      "can I test for deficiencies",
+      "I want to understand my nutrient levels",
+      "check my vitamin and mineral levels",
+      "I feel like I'm missing something in my diet",
+      "deficiency screening"
+    ],
+    "keywords": [
+      "deficiency",
+      "deficient",
+      "vitamin deficiency",
+      "mineral deficiency",
+      "nutrient levels",
+      "low vitamin",
+      "check deficiency",
+      "deficiency screening",
+      "missing nutrients",
+      "vitamin levels"
+    ],
+    "route_to_step": "deficiencies"
+  },
+  {
+    "intent": "repurchase_supplements",
+    "description": "Returning user wants to reorder or repurchase supplements they previously ordered.",
+    "examples": [
+      "I want to reorder my supplements",
+      "I need more of my supplements",
+      "can I repurchase my vitamins",
+      "I want to order supplements again",
+      "buy my supplements again",
+      "refill my supplements",
+      "I ran out of supplements and need to reorder",
+      "I want to get the same supplements again",
+      "order more supplements",
+      "repurchase my previous supplement order",
+      "I want to buy the supplements I had before"
+    ],
+    "keywords": [
+      "repurchase supplements",
+      "reorder supplements",
+      "order supplements again",
+      "buy supplements",
+      "refill supplements",
+      "more supplements",
+      "supplement order",
+      "vitamins again",
+      "reorder vitamins"
+    ],
+    "route_to_step": "repurchase_supplements"
+  }
+]
